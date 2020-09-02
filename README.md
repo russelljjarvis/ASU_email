@@ -1,4 +1,7 @@
 
+# Installation
+Confirm tools exhist, and if not install.
+
 Scripts for debugging asu email. 
 **1** check if mail is installed on your system. 
 try to launch with command `mail` or `mailx` on OSX. If its not installed:
