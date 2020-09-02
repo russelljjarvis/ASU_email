@@ -1,6 +1,11 @@
 # Overview:
 Script(s) for debugging asu email. 
 
+## TODO:
+create a "round-trip test". This requires:
+* local unix based email server needs to be able to receive email.
+* myasu email needs a forwarding rule setup.
+* crontab sends email, this triggers a timer to start a stop watch to time elapsed time until email is received from myASU.
 
 ## Installation
 Confirm tools exhist, and if not install.
