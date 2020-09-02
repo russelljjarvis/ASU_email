@@ -5,13 +5,13 @@ Script(s) for debugging asu email.
 create a "round-trip test". This requires:
 * local unix based email server needs to be able to receive email.
 * myasu email needs a forwarding rule setup, to auto-forward email pertaining to crontab test-mails.
-* crontab sends email, this triggers a timer to start a stop watch to time elapsed time until local unix mail client receives the mail from myASU (completing the round trip).
+* crontab sends email, this triggers a timer to start a stop watch to time measure elapsed time until local unix mail client receives the mail from myASU (completing the round trip).
 * Mean and std dev of round trip mail latencies can be computed. Annomolies can then be investigated at the email header level of resolution.
 
 ## Installation
 Confirm tools exhist, and if not install.
 
-**1** check if mail is installed on your system. 
+* Check if mail is installed on your system. 
 try to launch with command `mail` or `mailx` on OSX. If its not installed:
 
 If on Ubuntu:
